@@ -2,7 +2,7 @@
 
 ### About the project
 Python challenge for the company [Bloomon.nl](https://shop.bloomon.nl/).  
-I tried using principles from Robert Martin's Clean architecture.
+I tried with principles from Robert Martin's Clean architecture.
 
 ### Run the program in Docker
 ``` bash
