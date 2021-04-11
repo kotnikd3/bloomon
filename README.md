@@ -4,10 +4,11 @@
 Python challenge for the company [Bloomon.nl](https://shop.bloomon.nl/).  
 I tried using principles from Robert Martin's Clean architecture.
 
-### Run the program
+### Run the program in Docker
 ``` bash
-cd src/
-python3 API.py
+sudo docker build -t bloomon .
+# -i stands for interactive mode and -t will allocate a pseudo terminal for us
+sudo docker run -i -t bloomon
 ```
 
 ### TODO:
