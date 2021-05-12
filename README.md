@@ -1,7 +1,7 @@
 # bloomon
 
 ### About the project
-Python challenge for the company [Bloomon.nl](https://shop.bloomon.nl/).  
+Python challenge.  
 I tried with principles from Robert Martin's Clean architecture.
 
 ### Run the program in Docker
