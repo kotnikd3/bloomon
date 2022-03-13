@@ -1,12 +1,9 @@
-"""
-Author: Denis Kotnik, april 2021
-"""
-
 class Bouquet:
-    def __init__(self, designName, flowerSize, flowers):
-        self.designName = designName
-        self.flowerSize = flowerSize
+    def __init__(self, design_name, flower_size, flowers):
+        self.design_name = design_name
+        self.flower_size = flower_size
         self.flowers = flowers
-    
-    def getName(self):
-        return self.designName + self.flowerSize + self.flowers
+
+    @property
+    def name(self):
+        return self.design_name + self.flower_size + self.flowers
