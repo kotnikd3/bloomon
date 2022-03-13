@@ -11,9 +11,6 @@ sudo docker build -t bloomon .
 sudo docker run -i -t bloomon
 ```
 
-### TODO:
-* maybe encapsulate logic from methods processFlower, processDesign and processBouquet in class BusinessLogic
-
 ### Class diagram
 \
 ![data_model](class_diagram.jpg)
